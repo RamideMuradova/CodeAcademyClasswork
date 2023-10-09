@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: black;
+  height: 30px;
+  ;
+}
+
+ .boxDiv{
+  border: 3px slid green;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  
+ }
+ .box{
+  height: 25vh;
+  width: 30%;
+  background-color: seagreen;
+ }
+
+ footer {
+   height: 5vh;
+   background-color: blue;
+   margin: 4rem;
+ }
+ footer div {
+   display: flex;
+   align-items: center;
+   border-radius: 5px;
+ }
+  
+
+
+
+
