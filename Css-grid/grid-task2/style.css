@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  gap: 20px;
+  height: 100vh;
+}
+
+.box:nth-child(1) {
+  background-image: url("./Alex_081126_DSC4080.jpg");
+  grid-row: 1 / 4;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: aqua;
+}
+.box:nth-child(1),
+.box:nth-child(3) {
+  grid-row: span 3;
+}
+.box:nth-child(2) {
+  grid-column: span 2;
+  grid-row: span 5;
+}
+.box:nth-child(5) {
+  grid-row: span 4;
+}
+.box:nth-child(6) .box:nth-child(10) {
+  background-color: orangered;
+}
+.box:nth-child(4)
+  .box:nth-child(5)
+  .box:nth-child(7)
+  .box:nth-child(8)
+  .box:nth-child(9)
+  .box:nth-child(11)
+  .box:nth-child(12) {
+  background-color: blue;
+}
+.div.img{
+  width: 100px;
+  border-radius: 50%;
+}
