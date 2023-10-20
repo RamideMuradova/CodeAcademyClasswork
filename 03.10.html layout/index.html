@@ -3,139 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width
-    , initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-        table,
-        th,
-        td{
-            border: 1px solid black;
-        }
-      header,
-      section,
-      nav,
-      footer {
-        border: 1px solid black;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h2>This is a Header</h2>
-      <nav>
-        <h3>This is a Navigation</h3>
-        <ul>
-          <li>
-            <a href="#sec1">Section 1</a>
-          </li>
-          <li><a href="#sec2">Form section</a></li>
-          <li><a href="">Form section 2</a></li>
-          <li><a href="">Footer</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section id="sec1">
-      <h1>Section 1</h1>
-      <h3>Web Browser</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-      <h2>
-        Google Chrome,Firefox,and Internet Explorer are the most used beowsers
-        today
-      </h2>
-      <h3>Google Chrome</h3>
-      <p>Google Chrom in 2008.</p>
-      <h3>Article</h3>
-      <p>
-        Internet Explorer is a free web browser from Microsoft, released in
-        1995.
-      </p>
-      <h3>Mozilla Firefox</h3>
-      <p>
-        Firefox is a free, open-source web browser from Mozilla,released in
-        2004.
-      </p>
-    </section>
-    <section>
-      <h3>Form Section 2</h3>
-      <form action="">
-        <label for="name">Name</label>
-        <input type="text" id="name" />
-        <br />
-        <label for="">Gender:</label>
-        <input type="radio" name="name" />Male
-        <input type="radio" name="name" id="" />Female
-        <br />
-        <label for="">Pests:</label>
-        <select id="City" name="City">
-          <option value="">City</option>
-        </select>
-        <button>Submit</button>
-      </form>
-      <section>
-        <h3>Form Section2</h3>
-        <table>
-          <thead>
-            <tr>
-              <th>Fist Name</th>
-              <th>Last Name</th>
-              <th>Email Adress</th>
-            </tr>
-
-            <tr>
-              <td>Hillary</td>
-              <td>Nyakundi</td>
-              <th>Email Adress</th>
-            </tr>
-            <tr>
-              <td>Lary</td>
-              <td>Mak</td>
-              <td>developer@gmail.com</td>
-            </tr>
-          </thead>
-        </table>
-        <br> <br>
-        <table>
-            <thead>
-                <tr>
-                    <th>name</th>
-                    <th>subject</th>
-                    <th>marks</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td rowspan="2">hillary</td>
-                    <td>advencwd</td>
-                    <td>75</td>
-                </tr>
-                <tr>
-                    <td>operating</td>
-                    <td>60</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">larry</td>
-                    <td>advenced</td>
-                    <td>80</td>
-                </tr>
-                <tr>
-                    <td>opeartoin</td>
-                    <td>75</td>
-                </tr>
-                <tfoot>
-                    <tr>
-                        <td colspan="3">titsk</td>
-                    </tr>
-                </tfoot>
-         
-            
-            </tbody>
-        </table>
-      </section>
-    </section>
+    <div class="container">
+     <div>
+        <div class="center">
+            <h2>Login Form</h2>
+            <form action="">
+              <div>
+                <input type="text" name="" placeholder="User Name" />
+              </div>
+              <div>
+                <input type="password" name="" id="" placeholder="Password" />
+              </div>
+              <button type="submit">Sign In</button>
+            </form>
+          </div>
+              <p class="forget-pw">Forget your password? <a href="">Click Here</a></p>
+     </div>
+    </div>
 
   </body>
 </html>
