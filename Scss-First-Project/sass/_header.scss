@@ -1,0 +1,13 @@
+header{
+  background-color: $color-red;
+    .header{
+        @include Flexbox();
+        padding: 2rem;
+        nav{
+            ul{
+                display: flex;
+                column-gap: 20px;
+            }
+        }
+    }
+}
