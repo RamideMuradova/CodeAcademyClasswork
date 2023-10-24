@@ -8,20 +8,39 @@
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto auto;
+  padding: 50px;
 }
 
-header {
-  background-color: red;
+footer {
+  background-color: #EF6D58;
 }
-header .header {
+footer .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
 }
-header .header nav ul {
+footer .right {
+  width: 30%;
   display: flex;
-  -moz-column-gap: 20px;
-       column-gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+footer h4 {
+  color: #391400;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+footer li {
+  margin: 5px 0;
+}
+footer a {
+  color: #391400;
+}
+footer .fa-brands {
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  padding: 10px;
+  margin: 0 10px;
 }/*# sourceMappingURL=style.css.map */

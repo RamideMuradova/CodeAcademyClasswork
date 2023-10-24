@@ -1,0 +1,36 @@
+footer {
+  background-color: $color-pink;
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .right {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // gap:40px;
+  }
+  h4 {
+    color: #391400;
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  li {
+    margin: 5px 0;
+  }
+  a {
+    color: #391400;
+  }
+
+  .icons {
+  }
+  .fa-brands {
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+    margin: 0 10px;
+  }
+}
