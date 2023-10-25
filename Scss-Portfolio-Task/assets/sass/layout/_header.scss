@@ -1,0 +1,20 @@
+header {
+  background-color: rgb(13, 13, 94);
+  .header {
+    @include flexBox(space-between, center);
+    nav {
+      ul {
+        @include flexBox();
+        gap: 40px;
+      
+        li {
+        
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+#portfolio{
+    background-color: rgb(13, 13, 94);
+    .portfolio{
+       color: white;
+       @include flexBox ();
+       flex-direction: column;
+       padding: 5rem 5%;
+       gap: 2rem;
+       h1 {
+        font-size: 72px;
+       }
+       p {
+        max-width: 500px;
+        opacity: 0.7;
+        line-height: 32px;
+       }
+    }
+}

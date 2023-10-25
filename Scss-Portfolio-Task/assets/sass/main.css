@@ -52,12 +52,52 @@ table {
   border-spacing: 0;
 }
 
-a {
-  text-decoration: none;
-}
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 50px;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 0 5%;
+  }
+}
+
+header {
+  background-color: rgb(13, 13, 94);
+}
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+header .header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#portfolio {
+  background-color: rgb(13, 13, 94);
+}
+#portfolio .portfolio {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem 5%;
+  gap: 2rem;
+}
+#portfolio .portfolio h1 {
+  font-size: 72px;
+}
+#portfolio .portfolio p {
+  max-width: 500px;
+  opacity: 0.7;
+  line-height: 32px;
 }/*# sourceMappingURL=main.css.map */
